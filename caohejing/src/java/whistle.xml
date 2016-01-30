@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<wx>
+	<token>whistle</token>
+	<appid>wxa84b6d646e96f153</appid>
+	<secret>dadd519753b2d38c5f2842ee5741648f</secret>
+	<checkRequestRestrictly>true</checkRequestRestrictly>
+	<processor-chain>
+	    <processor>com.surelution.medical.FocusingAction</processor>
+	    <processor>com.surelution.medical.IntroductAction</processor>
+	    <processor>com.surelution.medical.ConmentAction</processor>
+		<processor>com.surelution.whistle.core.SampleAction</processor>
+	</processor-chain>
+</wx>
